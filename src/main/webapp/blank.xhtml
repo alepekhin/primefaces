@@ -1,0 +1,17 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:util="http://java.sun.com/jsf/composite/components/util">
+
+	<p/>
+	<p:dialog header="Header Text" widgetVar="dlg">
+     Dailog Content
+	</p:dialog>
+	
+	<p:commandButton value="Show" type="button" onclick="dlg.show()" />
+	<p:commandButton value="Hide" type="button" onclick="dlg.hide()" />
+	
+	
+</ui:composition>
